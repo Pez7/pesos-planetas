@@ -1,4 +1,4 @@
-function pesoPluton(peso){
+function pesoPluton(){
 	var peso = document.getElementById("peso").value
 	var gravedad = 0.40;
 	var calculo = peso * gravedad;
@@ -7,7 +7,7 @@ function pesoPluton(peso){
 	return alert("Tu peso en Plutón es de: " + nuevoPeso + " kilos.");
 }
 
-function pesoNeptuno(peso){
+function pesoNeptuno(){
 	var peso = document.getElementById("peso").value
 	var gravedad = 11;
 	var calculo = peso * gravedad;
@@ -15,7 +15,7 @@ function pesoNeptuno(peso){
 	return alert("Tu peso en Neptuno es de: " + calculo + " kilos.");
 }
 
-function pesoUrano(peso){
+function pesoUrano(){
 	var peso = document.getElementById("peso").value
 	var gravedad = 7.77;
 	var calculo = peso * gravedad;
@@ -24,7 +24,7 @@ function pesoUrano(peso){
 	return alert("Tu peso en Urano es de: " + nuevoPeso + " kilos.");
 }
 
-function pesoSaturno(peso){
+function pesoSaturno(){
 	var peso = document.getElementById("peso").value
 	var gravedad = 9.05;
 	var calculo = peso * gravedad;
@@ -42,7 +42,7 @@ function pesoJupiter(peso){
 	return alert("Tu peso en Júpiter es de: " + nuevoPeso + " kilos.");
 }
 
-function pesoMarte(peso){
+function pesoMarte(){
 	var peso = document.getElementById("peso").value
 	var gravedad = 3.72;
 	var calculo = peso * gravedad;
@@ -51,7 +51,7 @@ function pesoMarte(peso){
 	return alert("Tu peso en Marte es de: " + nuevoPeso + " kilos.");
 }
 
-function pesoVenus(peso){
+function pesoVenus(){
 	var peso = document.getElementById("peso").value
 	var gravedad = 8.87;
 	var calculo = peso * gravedad;
@@ -60,7 +60,7 @@ function pesoVenus(peso){
 	return alert("Tu peso en Venus es de: " + nuevoPeso + " kilos.");
 }
 
-function pesoMercurio(peso){
+function pesoMercurio(){
 	var peso = document.getElementById("peso").value
 	var gravedad = 2.78;
 	var calculo = peso * gravedad;
