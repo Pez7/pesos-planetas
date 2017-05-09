@@ -3,8 +3,67 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+
+	<style type="text/css">
+        html, body, table, tr, td, input, select {
+            font-family: 'comic sans', cursive;
+        }
+        html {
+            margin: 0;
+            padding: 0;
+            width: 98%;
+        }
+        body {
+            width: 100%;
+            text-align: center;
+            background-image: url("assets/img/sistema-solar3.jpg");
+        }
+        #logo { 
+            width: 300px; 
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+        }
+        input, select {
+            height: 50px;
+            font-size: 1em;
+            padding: 0.5em;
+        }
+
+    </style>
 </head>
 <body>
+
+<h1 style="color: white">¿Cuánto pesas en otros planetas?</h1>
+
+<p style="color: white">Ingresa tu peso en la tierra</p>
+<input id="peso">
+
+<p style="color: white">Tu peso en Plutón</p>
+<button onclick="pesoPluton()"></button>
+
+<p style="color: white">Tu peso en Neptuno</p>
+<button onclick="pesoNeptuno()"></button>
+
+<p style="color: white">Tu peso en Urano</p>
+<button onclick="pesoUrano()"></button>
+
+<p style="color: white">Tu peso en Saturno</p>
+<button onclick="pesoSaturno()"></button>
+
+<p style="color: white">Tu peso en Júpiter</p>
+<button onclick="pesoJupiter()"></button>
+
+<p style="color: white">Tu peso en Marte</p>
+<button onclick="pesoMarte()"></button>
+
+<p style="color: white">Tu peso en Venus</p>
+<button onclick="pesoVenus()"></button>
+
+<p style="color: white">Tu peso en Mercurio</p>
+<button onclick="pesoMercurio()"></button>
+
 	<script src="assets/js/main.js"></script>
 </body>
 </html>
